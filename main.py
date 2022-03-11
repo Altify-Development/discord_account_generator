@@ -19,7 +19,7 @@ fakeRU.add_provider(BaseProvider)
 # Driver settings
 driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()))
 actions = ActionChains(driver)
-driver.get("https://discord.com/register")
+driver.get("https://discord.com/register/")
 
 # Data generation
 email = fakeEN.email()
